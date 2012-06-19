@@ -1,4 +1,4 @@
-The [Coremob Level 1 Requirements](http://coremob.github.com/level-1/index.html) is published by the [W3C Core Mobile Web Platform Community Group](http://coremob.org) (Coremob, for short) as an CG Draft. Development happens on GitHub.
+The [Coremob Level 1 Requirements](http://coremob.github.com/level-1-rec/index.html) is published by the [W3C Core Mobile Web Platform Community Group](http://coremob.org) (Coremob, for short) as an CG Draft. Development happens on GitHub.
 
 Please file well-scoped issues and send pull requests directly on GitHub.
 
