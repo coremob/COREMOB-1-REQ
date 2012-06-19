@@ -39,4 +39,96 @@
         This document describes baseline requirements for mobile Web application development.
       </p>
     </section>
+    <section>
+      <h2>Requirements</h2>
+      <section>
+        <h2>Taking pictures</h2>
+        <section>
+          <h2>Accessing the device's camera</h2>
+          <p>
+             It must be possible to take pictures using the device's camera. This must be done in such a way that the user's security and privacy is respected.
+          </p>
+        </section>
+        <section>
+          <h2>Accessing pixel data</h2>
+          <p>
+             It must be possible to access picture's pixel data to programmatically modify the picture (by cropping it, applying filters, etc.).
+          </p>
+          <p>
+             Conversely, it must be possible to transform back that pixel data into a format which can be stored or uploaded to a remote server.
+          </p>
+        </section>
+        <section>
+          <h2>Storing pictures locally</h2>
+          <p>
+             It must be possible to store pictures locally and retrieve them without requiring further permission from the user.
+          </p>
+        </section>
+        <section>
+          <h2>Uploading pictures</h2>
+          <p>
+             It must be possible to asynchronously upload pictures to a remote server. Ideally, uploads should continue even if the user navigates to a different page.
+          </p>
+        </section>
+        <section>
+          <h2>Out of Scope</h2>
+          <p>
+             Direct access to multimedia streams are out of the scope of this document.
+          </p>
+        </section>
+      </section>
+      <section>
+        <h2>Locking the orientation of the device</h2>
+        <section>
+          <h2>Locking orientation</h2>
+          <p>
+            A web application might be designed to be used strictly in portrait or landscape mode. It must be possible to signal this preference to the User Agent.
+          </p>
+        </section>
+        <section>
+          <h2>Out of Scope</h2>
+          <p>
+            Programatic locking and/or unlocking of the device's orientation are out of scope.
+          </p>
+        </section>
+      </section>
+      <section>
+         <h2>Running an application in full-screen mode</h2>
+         <p>
+            It must be possible for an application to signal to the User Agent that it wants to operate fullscreen and not inside of the browser's chrome.
+         </p>
+        
+       </section>
+      <section>
+        <h2>Geo-localizing the device</h2>
+        <section>
+          <h2>Finding the device's current position</h2>
+          <p>
+             It must be possible to obtain the device's current geographic coordinates provided the user consents to sharing those.
+          </p>
+        </section>
+        <section>
+          <h2>Responding to position change</h2>
+          <p>
+             It must be possible to register to receive updates when the position of the device changes.
+          </p>
+        </section>
+      </section>
+      <section>
+        <h2>Building 2D and isometric games</h2>
+        <p>
+           must be able to run at 30FPS in fullscreen mode.
+        </p>
+      </section>
+      <section>
+        <h2>Multiple sound files must be able to play simultaneously with minimal latency.</h2>
+      </section>
+      <section>
+        <h2>It must be possible to store large, structured persistent data sets.</h2>
+        <p>
+          This data must be available asynchronously.
+        </p>
+      </section>
+    </section>
+  </body>
 </html>
